@@ -119,7 +119,7 @@ function App() {
     language,
     showLineNumbers,
     startingLineNumber,
-    highlight
+    highlight,
   }) {
     return (
       <CodeBlock
@@ -141,7 +141,7 @@ function App() {
   return (
     <div className="App">
       <div className="header">
-        <h1 className="title">Algorithm Visualizer</h1>
+        <h1 className="title">Algo Visualizer</h1>
         <a href="https://www.buymeacoffee.com/prathamesh94" target="_parent">
           <button className="coffee">BUY ME COFFEE 🙂</button>
         </a>
@@ -188,7 +188,7 @@ function App() {
 
       <div className="button-container">
         <button onClick={bubbleSort}>Bubble Sort</button>
-        <button onClick={bubbleSort}>Quick Sort</button>
+        <button onClick={bubbleSort}>Bubble Sort</button>
         <button onClick={bubbleSort}>Merge sort Sort</button>
         <button onClick={SelectionSort}>selection Sort</button>
         <button onClick={bubbleSort}>insertion Sort</button>
