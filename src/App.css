@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Quantico:wght@700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.header {
+  margin-right: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.title {
+  font-family: "Quantico", sans-serif;
+  font-size: 30px;
+  text-align: left;
+  padding-left: 60px;
+}
+.coffee {
+  font-family: poppins;
+  background-color: yellow;
+  color: black;
+  height: 40px;
+  border-radius: 5px;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.array-container {
+  margin-left: 60px;
+  margin-right: 60px;
+  height: 50vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 8px;
+}
+
+.num-container {
+  height: 3vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 25px;
+}
+
+.arraynum {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 980px;
+  background-color: #ffdbe1;
+  height: 60vh;
+}
+
+.animationcontainer {
+  margin-left: 60px;
+  margin-right: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.generator {
+  display: flex;
+  align-items: center;
+  margin-left: 60px;
+  margin-right: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 60px;
+}
+
+.resetbtn {
+  margin-right: 10px;
+  margin-left: 20px;
+  background-color: white;
+  border: solid 2px;
+  color: black;
+  border-color: black;
+}
+
+.inpfield {
+  border: none;
+  border-radius: 5px;
+  height: 20px;
+  width: 400px;
+}
+
+.inprange {
+  margin-left: 320px;
+}
+
+.codesnippet {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffc7d0;
+  width: 440px;
+}
+
+.funname {
+  margin-top: 10px;
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: pink;
+}
+
+.array-bar {
+  width: 30px;
+  margin: 0 2px;
+  background-color: pink;
+  transition: all 0.2s ease-in-out;
+  border-radius: 2px;
+}
+
+.num-bar {
+  width: 30px;
+  margin: 0 2px;
+  background-color: none;
+  border-radius: 1px;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+}
+
+.array-bar.comparing {
+  background-color: #ff5757;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+button {
+  margin: 0 10px;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #ffc7d0;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn.active {
+  margin: 0 10px;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #3e64af;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn.disabled {
+  margin: 0 10px;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #3e64af;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+  cursor: not-allowed;
+}
+
+button:hover {
+  background-color: #a764c7;
+}
+
+.code {
+}
+
+@media screen and (max-width: 768px) {
+  .array-container {
+    height: 50vh;
+  }
+}
